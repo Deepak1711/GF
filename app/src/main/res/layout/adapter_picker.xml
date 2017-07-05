@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2">
+
+    <FrameLayout
+        android:id="@+id/flcontainer1"
+        android:layout_width="@dimen/eighty"
+        android:layout_height="@dimen/eighty"
+        android:layout_column="0"
+        android:layout_row="0">
+
+        <ImageView
+            android:id="@+id/image_view1"
+            android:layout_width="@dimen/eighty"
+            android:layout_height="@dimen/eighty"
+            android:scaleType="center" />
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="@dimen/twentyfive"
+            android:layout_height="@dimen/twentyfive"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/five"
+            android:layout_marginTop="@dimen/ten"
+            android:button="@drawable/checkbox_selector"
+            android:checked="false"
+            android:clickable="false"
+            android:duplicateParentState="true" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flcontainer2"
+        android:layout_width="@dimen/eighty"
+        android:layout_height="@dimen/eighty"
+        android:layout_column="1"
+        android:layout_marginLeft="@dimen/twenty"
+        android:layout_row="0">
+
+        <ImageView
+            android:id="@+id/image_view2"
+            android:layout_width="@dimen/eighty"
+            android:layout_height="@dimen/eighty"
+            android:scaleType="center" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="@dimen/twentyfive"
+            android:layout_height="@dimen/twentyfive"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/five"
+            android:layout_marginTop="@dimen/ten"
+            android:button="@drawable/checkbox_selector"
+            android:checked="false"
+            android:clickable="false"
+            android:duplicateParentState="true" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flcontainer3"
+        android:layout_width="@dimen/eighty"
+        android:layout_height="@dimen/eighty"
+        android:layout_column="0"
+        android:layout_marginTop="@dimen/twenty"
+        android:layout_row="1">
+
+        <ImageView
+            android:id="@+id/image_view3"
+            android:layout_width="@dimen/eighty"
+            android:layout_height="@dimen/eighty"
+            android:scaleType="center" />
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="@dimen/twentyfive"
+            android:layout_height="@dimen/twentyfive"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/five"
+            android:layout_marginTop="@dimen/ten"
+            android:button="@drawable/checkbox_selector"
+            android:checked="false"
+            android:clickable="false"
+            android:duplicateParentState="true" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flcontainer4"
+        android:layout_width="@dimen/eighty"
+        android:layout_height="@dimen/eighty"
+        android:layout_column="1"
+        android:layout_marginLeft="@dimen/twenty"
+        android:layout_marginTop="@dimen/twenty"
+        android:layout_row="1">
+
+        <ImageView
+            android:id="@+id/image_view4"
+            android:layout_width="@dimen/eighty"
+            android:layout_height="@dimen/eighty"
+            android:scaleType="center" />
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:layout_width="@dimen/twentyfive"
+            android:layout_height="@dimen/twentyfive"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/five"
+            android:layout_marginTop="@dimen/ten"
+            android:button="@drawable/checkbox_selector"
+            android:checked="false"
+            android:clickable="false"
+            android:duplicateParentState="true" />
+
+    </FrameLayout>
+
+</GridLayout>
